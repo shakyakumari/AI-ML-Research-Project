@@ -1,0 +1,7 @@
+numpy>=1.26
+networkx>=3.0
+pytest>=8.0
+# Optional, for the neural upgrades described in the paper (not needed to run this repo):
+# torch>=2.2
+# transformers>=4.40
+# torch-geometric>=2.5

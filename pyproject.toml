@@ -1,0 +1,10 @@
+[project]
+name = "hmdkg-docqa"
+version = "0.1.0"
+description = "Question-aware hierarchical multimodal graph reasoning for document QA (reference implementation)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "networkx>=3.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
