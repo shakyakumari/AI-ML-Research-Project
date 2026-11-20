@@ -72,4 +72,5 @@ hmdkg/        library (graph, builder, encoders, retrieval, generation, pipeline
 tests/        32 unit + end-to-end tests
 data/         toy document and QA pairs
 scripts/      toy evaluation / ablations
+demo.py       guided walk-through
 ```
