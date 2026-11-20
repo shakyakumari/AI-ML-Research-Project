@@ -1,0 +1,17 @@
+[
+  {"id": "q01", "type": "factoid", "question": "Who is the Chief Executive Officer of Acme Robotics?", "answer": ["Priya Sharma"], "evidence": ["Priya Sharma has served"]},
+  {"id": "q02", "type": "factoid", "question": "When was Acme Robotics founded?", "answer": ["2009"], "evidence": ["founded in 2009"]},
+  {"id": "q03", "type": "factoid", "question": "Where did the headquarters move in 2015?", "answer": ["Bengaluru"], "evidence": ["moved to Bengaluru"]},
+  {"id": "q04", "type": "numerical", "question": "What was the revenue of EMEA in 2023 in USD millions?", "answer": ["110.7"], "evidence": ["Table 1: Revenue by region"]},
+  {"id": "q05", "type": "numerical", "question": "How many people does the Logistics division employ?", "answer": ["420"], "evidence": ["employs 420 people"]},
+  {"id": "q06", "type": "comparative", "question": "Which region had higher revenue in 2024, APAC or EMEA?", "answer": ["APAC"], "evidence": ["Table 1: Revenue by region"]},
+  {"id": "q07", "type": "comparative", "question": "Which region had the lowest revenue in 2022?", "answer": ["EMEA"], "evidence": ["Table 1: Revenue by region"]},
+  {"id": "q08", "type": "crossmodal", "question": "What does Figure 1 show?", "answer": ["Revenue growth by region from 2022 to 2024, showing APAC overtaking Americas in 2024"], "evidence": ["Revenue growth by region from 2022 to 2024"]},
+  {"id": "q09", "type": "crossmodal", "question": "According to Figure 1, which region overtook Americas in 2024?", "answer": ["APAC"], "evidence": ["Revenue growth by region from 2022 to 2024"]},
+  {"id": "q10", "type": "multihop", "question": "Who leads the division that opened a plant in Chennai?", "answer": ["Rahul Verma"], "evidence": ["opened a new fulfilment robotics plant in Chennai", "is led by Rahul Verma"]},
+  {"id": "q11", "type": "descriptive", "question": "Describe the main risks facing Acme Robotics.", "answer": ["Supply chain disruption is the most significant operational risk. Currency fluctuations affect reported revenue. Regulatory changes in healthcare robotics could delay product approvals."], "evidence": ["Supply chain disruption is the most significant operational risk", "Regulatory changes in healthcare robotics"]},
+  {"id": "q12", "type": "numerical", "question": "How many employees does the Agriculture division have?", "answer": ["85"], "evidence": ["Agriculture is the smallest division"]},
+  {"id": "q13", "type": "numerical", "question": "How many hospital partners does the Healthcare division have?", "answer": ["37"], "evidence": ["37 hospital partners"]},
+  {"id": "q14", "type": "numerical", "question": "What was APAC revenue in 2024?", "answer": ["187.9"], "evidence": ["Table 1: Revenue by region"]},
+  {"id": "q15", "type": "factoid", "question": "Who leads the Healthcare division?", "answer": ["Meera Iyer"], "evidence": ["led by Meera Iyer"]}
+]
